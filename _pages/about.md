@@ -10,7 +10,7 @@ redirect_from:
 About Me
 ======
 
-I am a computer vision researcher in the [Computer Vision Lab](https://www.vision.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/en.html), supervised by [Prof. Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjg3LC0xOTcxNDY1MTc4.html).
+I am a computer vision researcher with a PhD from the [Computer Vision Lab](https://www.vision.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/en.html), supervised by [Prof. Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjg3LC0xOTcxNDY1MTc4.html).
 
 My research focuses on **multimodal fusion for robust semantic perception** and **3D reconstruction**, with an emphasis on all-weather scene understanding for autonomous systems. I develop adaptive sensor-fusion architectures across cameras, LiDAR, and radar, and study how to make perception robust to adverse conditions.
 
