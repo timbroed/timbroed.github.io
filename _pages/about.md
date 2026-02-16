@@ -26,7 +26,8 @@ Research Interests
 
 Selected Publications
 ------
-- **DGFusion**: Depth-Guided Sensor Fusion for Robust Semantic Perception (RA-L 2026)
+- **PBR-NeRF**: Inverse Rendering with Physics-Based Neural Fields (CVPR 2025)
+- **DGFusion**: Depth-Guided Sensor Fusion for Robust Semantic Perception (RA-L 2025)
 - **CAFuser**: Condition-Aware Multimodal Fusion for Robust Semantic Perception (RA-L 2025)
 - **MUSES**: Multi-Sensor Semantic Perception Dataset for Driving under Uncertainty (ECCV 2024)
 - **Radar Fields**: Frequency-Space Neural Scene Representations for FMCW Radar (SIGGRAPH 2024)

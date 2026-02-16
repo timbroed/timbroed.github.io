@@ -28,7 +28,7 @@ author:
   bio              : "Ph.D. candidate in Computer Vision at ETH Zurich"
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich - Computer Vision Lab"
-  uri              : "https://timbroed.github.io"
+  uri              : # ""
   email            : "timbr@ethz.ch"
 
   # Academic websites
