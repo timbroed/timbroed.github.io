@@ -1,5 +1,13 @@
 {% include base_path %}
 
+{% if post.image %}
+  {% capture list_image %}{{ post.image }}{% endcapture %}
+{% elsif post.header.teaser %}
+  {% capture list_image %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign list_image = nil %}
+{% endif %}
+
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -19,8 +27,20 @@
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
+          {% elsif teaser | slice: 0, 1 == "/" %}
+            "{{ teaser | prepend: base_path }}"
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% elsif include.type != "grid" and list_image %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if list_image contains "://" %}
+            "{{ list_image }}"
+          {% else %}
+            "{{ list_image | prepend: base_path }}"
           {% endif %}
           alt="">
       </div>

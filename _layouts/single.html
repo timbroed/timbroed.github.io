@@ -45,6 +45,26 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.image %}
+          {% capture page_image %}{{ page.image }}{% endcapture %}
+        {% elsif page.header.teaser %}
+          {% capture page_image %}{{ page.header.teaser }}{% endcapture %}
+        {% else %}
+          {% assign page_image = nil %}
+        {% endif %}
+
+        {% if page_image %}
+          <figure class="page__meta">
+            <img src=
+              {% if page_image contains "://" %}
+                "{{ page_image }}"
+              {% else %}
+                "{{ page_image | prepend: base_path }}"
+              {% endif %}
+              alt="">
+          </figure>
+        {% endif %}
+
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
