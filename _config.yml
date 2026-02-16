@@ -9,28 +9,27 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Tim Broedermann"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Tim Broedermann"
+description              : &description "Ph.D. candidate in computer vision at ETH Zurich focusing on multimodal fusion and robust scene understanding"
+url                      : https://timbroed.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "timbroed/timbroed.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "tim.jpeg"
+  avatar           : "tim.png"
   name             : "Tim Broedermann"
   pronouns         : # example: "she/her"
-  bio              : "Ph.D. Candidate in Computer Vision at ETH Zurich"
+  bio              : "Ph.D. candidate in Computer Vision at ETH Zurich"
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich - Computer Vision Lab"
-  uri              : # URL
-  email            : "tim.broedermann@vision.ee.ethz.ch"
+  uri              : "https://timbroed.github.io"
+  email            : "timbr@ethz.ch"
 
   # Academic websites
   academia         : # URL
@@ -38,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=hzhMmjYAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # https://orcid.org/yourorcidurl
+  orcid            : "https://orcid.org/0009-0009-6428-3066"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -228,10 +227,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -248,6 +247,7 @@ defaults:
       comments: true
       share: true
       related: true
+      published: false
   # _pages
   - scope:
       path: ""
