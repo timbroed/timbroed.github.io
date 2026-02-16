@@ -106,6 +106,12 @@
     margin: 0 0 4px;
   }
 
+  .archive__item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
   .archive__item-teaser {
     flex: 0 0 160px;
     max-width: 160px;
@@ -114,7 +120,7 @@
   }
 
   .archive__item-teaser img {
-    width: 50%;
+    width: 80%;
     height: auto;
     display: block;
   }
