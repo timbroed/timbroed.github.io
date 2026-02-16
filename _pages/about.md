@@ -10,7 +10,7 @@ redirect_from:
 About Me
 ======
 
-I am a Ph.D. candidate in the [Computer Vision Lab](https://www.vision.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/en.html), supervised by [Prof. Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjg3LC0xOTcxNDY1MTc4.html), [Prof. Ender Konukoglu](https://ai.ethz.ch/people/ender.html), and [Dr. Christos Sakaridis](https://scholar.google.com/citations?user=CYyG5dQAAAAJ&hl=en).
+I am a computer vision researcher in the [Computer Vision Lab](https://www.vision.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/en.html), supervised by [Prof. Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjg3LC0xOTcxNDY1MTc4.html).
 
 My research focuses on **multimodal fusion for robust semantic perception** and **3D reconstruction**, with an emphasis on all-weather scene understanding for autonomous systems. I develop adaptive sensor-fusion architectures across cameras, LiDAR, and radar, and study how to make perception robust to adverse conditions.
 
@@ -26,8 +26,8 @@ Research Interests
 
 Selected Publications
 ------
+- **DGFusion**: Depth-Guided Sensor Fusion for Robust Semantic Perception (RA-L 2026)
 - **PBR-NeRF**: Inverse Rendering with Physics-Based Neural Fields (CVPR 2025)
-- **DGFusion**: Depth-Guided Sensor Fusion for Robust Semantic Perception (RA-L 2025)
 - **CAFuser**: Condition-Aware Multimodal Fusion for Robust Semantic Perception (RA-L 2025)
 - **MUSES**: Multi-Sensor Semantic Perception Dataset for Driving under Uncertainty (ECCV 2024)
 - **Radar Fields**: Frequency-Space Neural Scene Representations for FMCW Radar (SIGGRAPH 2024)
@@ -44,7 +44,6 @@ Teaching
 Contact
 ------
 **Email:** timbr@ethz.ch  
-**Office:** ETF D 115  
 
 Social Links
 ------
