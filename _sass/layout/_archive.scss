@@ -105,6 +105,19 @@
   .page__meta {
     margin: 0 0 4px;
   }
+
+  .archive__item-teaser {
+    flex: 0 0 160px;
+    max-width: 160px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .archive__item-teaser img {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
 }
 
 
